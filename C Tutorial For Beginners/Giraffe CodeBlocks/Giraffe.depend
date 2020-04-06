@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1586145640 source:c:\users\sjhrn\desktop\c tutorial for beginners\giraffe\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1586188612 source:c:\users\sjhrn\desktop\c tutorial for beginners\giraffe\calculator.c
+	<stdio.h>
+	<stdlib.h>
+
