@@ -11,5 +11,14 @@ int main(int argc, char const *argv[]) {
 
   printf("%d\n", nums[0][0] );
 
+  int i, j;
+  for(i = 0; i < 3; i++) {
+    for(j = 0; j < 2; j++){
+      printf("%d, ", nums[i][j] );
+    }
+      printf("\n");
+  }
+
+
   return 0;
 }
