@@ -1,0 +1,65 @@
+Script started on 2020-04-14 15:51:21-0400
+]0;sam@sam-VirtualBox: ~/Desktop/projects/project1[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/projects/project1[00m$ make
+gcc -g -Wall   -c -o myshell.o myshell.c
+gcc -g -Wall myshell.o -o myshell
+]0;sam@sam-VirtualBox: ~/Desktop/projects/project1[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/projects/project1[00m$ ./myshell
+/home/sam/Desktop/projects/project1/myshell:cat M	akefile
+SOURCES = myshell.c utility.c					# other C files
+OBJECTS = myshell.o
+HEADERS = myshell.h										# header files
+CC = gcc
+CFLAGS = -g -Wall
+
+myshell:$(OBJECTS)
+	$(CC) $(CFLAGS) $(OBJECTS) -o myshell
+clean:
+		rm -fR *o myshell
+/home/sam/Desktop/projects/project1/myshell:myclr
+[1;1H[2J/home/sam/Desktop/projects/project1/myshell:mypause
+Press Enter to Continue
+sdfsdfsdf         sdfsdfsdf
+/home/sam/Desktop/projects/project1/myshell:myecho hello world
+hello world 
+/home/sam/Desktop/projects/project1/myshell:mydir  
+utility.c
+.~lock.documentation.odt#
+test
+myshell.h
+readme.txt
+..
+answersToWaitQuestion.odt
+typescript
+myshell.c
+waitExample.c
+documentation.odt
+myshell
+myshell.o
+.
+forkexecExample.c
+Makefile
+/home/sam/Desktop/projects/project1/myshell:mydir .
+utility.c
+.~lock.documentation.odt#
+test
+myshell.h
+readme.txt
+..
+answersToWaitQuestion.odt
+typescript
+myshell.c
+waitExample.c
+documentation.odt
+myshell
+myshell.o
+.
+forkexecExample.c
+Makefile
+/home/sam/Desktop/projects/project1/myshell:mydir ..
+..
+.
+project1
+/home/sam/Desktop/projects/project1/myshell:myquit
+Killed
+]0;sam@sam-VirtualBox: ~/Desktop/projects/project1[01;32msam@sam-VirtualBox[00m:[01;34m~/Desktop/projects/project1[00m$ exit
+
+Script done on 2020-04-14 15:53:24-0400
